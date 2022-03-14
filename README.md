@@ -1,2 +1,1 @@
-# taller-en-clase
-# taller-en-clase
+# js-issue-tracker
