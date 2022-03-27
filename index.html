@@ -12,7 +12,7 @@
     
 </head>
 
-<body>
+<body onload="fetchIssues()">
     
     
     <div class="jumbotron">
@@ -29,9 +29,10 @@
             <div class="form-group"> <label for="issueDescInput">Assigned To</label> <input type="text"
                     class="form-control" id="issueAssignedToInput" placeholder="Enter responsible ..."> </div> <button
                 type="submit" class="btn btn-primary" id="issueInputFormgit">Add</button>
+                
         </form>
     </div>
-
+    <div class="row">aaaaaaaaaaaaaaaaaaaaa<div class="col-lg-12"> <div id="issuesList"> </div> </div> </div>
     <div class=“container”>
         <h1>Issue Tracker</h1>
         <div class=“footer”>
