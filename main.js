@@ -12,6 +12,7 @@ function saveIssue(e) {
       status: issueStatus
     }
     
+
     if (localStorage.getItem('issues') === null) {
       var issues = [];
       issues.push(issue);
@@ -22,9 +23,11 @@ function saveIssue(e) {
       localStorage.setItem('issues', JSON.stringify(issues));
     }
     
-    document.getElementById('issueInputForm').addEventListener('submit', saveIssue);
+    document.getElementById('issueInputForm').reset();
    
-    fetchIssues();
+    //fetchIssues();
     
     e.preventDefault(); 
   }
+
+  document.getElementById('issueInputForm').addEventListener('submit', saveIssue);
