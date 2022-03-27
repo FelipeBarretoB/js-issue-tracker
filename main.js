@@ -50,7 +50,7 @@ function saveIssue(e) {
     
     document.getElementById('issueInputForm').reset();
    
-    //fetchIssues();
+    fetchIssues();
     
     e.preventDefault(); 
   }
