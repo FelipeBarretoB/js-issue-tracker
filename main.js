@@ -39,6 +39,7 @@ function saveIssue(e) {
       status: issueStatus
     }
     
+
     if (localStorage.getItem('issues') === null) {
       var issues = [];
       issues.push(issue);
